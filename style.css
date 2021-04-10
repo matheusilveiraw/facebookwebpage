@@ -61,6 +61,12 @@ section#unica input[type="button"] {
     margin-right: auto;
 }
 
+@media (max-width: 500px) { 
+    #shadowed-box { 
+        width: 100%;
+    }
+ }
+
 
 .underline { 
     border-bottom: 1px solid gainsboro;
@@ -102,12 +108,4 @@ footer {
 
 footer li a { 
     color: #385898;
-}
-
-#plus { 
-    width: 30px;
-    height: 20px;
-    border: none;
-    border-color: #ccd0d5;
-    color: #4b4f56;
 }
